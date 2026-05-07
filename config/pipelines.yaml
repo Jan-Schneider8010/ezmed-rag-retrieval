@@ -1,0 +1,39 @@
+# Ablation variants from §4.3 of the exposé.
+# Each variant toggles ingestion-side HQ enrichment and retrieval-side query rewriting.
+
+variants:
+  baseline:
+    description: "Plain sliding-window chunks, original lay query."
+    ingestion:
+      hypothetical_questions: false
+    retrieval:
+      query_rewriting: false
+
+  hq_only:
+    description: "Chunks enriched with hypothetical lay questions; original query."
+    ingestion:
+      hypothetical_questions: true
+    retrieval:
+      query_rewriting: false
+
+  qr_only:
+    description: "Plain chunks; LLM rewrites the lay query into medical terminology."
+    ingestion:
+      hypothetical_questions: false
+    retrieval:
+      query_rewriting: true
+
+  both:
+    description: "HQ-enriched chunks AND query rewriting (the combined hypothesis)."
+    ingestion:
+      hypothetical_questions: true
+    retrieval:
+      query_rewriting: true
+
+retrieval:
+  top_k: 10
+  metrics_k: [5, 10]
+
+embedding:
+  model: text-embedding-3-large
+  dimensions: 3072

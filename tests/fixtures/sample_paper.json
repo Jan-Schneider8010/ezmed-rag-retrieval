@@ -1,0 +1,10 @@
+{
+  "pmid": "00000000",
+  "doi": "10.0000/sample",
+  "title": "Sample paper for unit tests",
+  "journal": "Journal of Examples",
+  "authors": ["Doe, J."],
+  "mesh_terms": ["Cardiology"],
+  "published_at": "2025-01-01",
+  "full_text": "Methods. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Results. Sed do eiusmod tempor incididunt."
+}

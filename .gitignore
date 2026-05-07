@@ -160,6 +160,7 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+CLAUDE.md
 
 # Rope project settings
 .ropeproject
@@ -216,3 +217,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ezmed: keep folder structure but not contents
+data/raw/*
+data/processed/*
+data/plaba/*
+data/qa_dataset/*
+!data/**/.gitkeep
+!data/README.md
+# results/ is committed (per-run metrics + stats output feed the thesis)
+
+# Local docker volumes (only relevant if bind-mounted)
+qdrant_data/
+postgres_data/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,9 @@
+# Optional Qdrant override. The default image config is sufficient for local dev;
+# mount this file at /qdrant/config/production.yaml if you need to tune storage,
+# WAL behavior, or telemetry for the prototype.
+
+storage:
+  on_disk_payload: true
+
+service:
+  enable_cors: true
