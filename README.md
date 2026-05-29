@@ -51,17 +51,10 @@ ezmed-rag-retrieval/
 ## Quickstart
 
 ```bash
-cp .env.example .env        # fill in OPENAI_API_KEY etc.
-make up                     # start qdrant + postgres + app
-make shell                  # exec into the app container
-```
-
-Or locally without docker:
-
-```bash
-make install
-docker compose up -d qdrant postgres
-ezmed --help
+cp .env.example .env             # fill in AZURE_OPENAI_KEY + AZURE_OPENAI_ENDPOINT
+uv sync --all-extras
+uv run nbstripout --install      # one-time: clean notebook diffs on commit
+docker compose up -d qdrant
 ```
 
 ## End-to-end run

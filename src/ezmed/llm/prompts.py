@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 
-from config.settings import settings
+from ezmed.settings import settings
 
 
 @dataclass(frozen=True)

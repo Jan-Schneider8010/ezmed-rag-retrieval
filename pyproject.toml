@@ -41,6 +41,9 @@ dev = [
     "ruff>=0.5",
     "mypy>=1.10",
     "ipykernel>=6.29",
+    "nbconvert>=7.16",
+    "nbclient>=0.10",
+    "nbstripout>=0.9",
 ]
 
 [project.scripts]

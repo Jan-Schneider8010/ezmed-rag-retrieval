@@ -231,6 +231,9 @@ data/qa_dataset/*
 qdrant_data/
 postgres_data/
 
+# Local-only working notes (not part of the thesis deliverable)
+local-docs/
+
 # Editor / OS
 .DS_Store
 .idea/

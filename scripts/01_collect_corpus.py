@@ -6,7 +6,7 @@ data/raw/{pmcid}.xml and the PMC-ID list to data/raw/_pmcids.txt."""
 import logging
 from pathlib import Path
 
-from config.settings import settings
+from ezmed.settings import settings
 from ezmed.ingestion.pubmed import RAW_XML_DIR, PubMedFetcher, _build_query
 
 logger = logging.getLogger(__name__)

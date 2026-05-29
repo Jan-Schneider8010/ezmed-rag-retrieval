@@ -4,7 +4,7 @@ import logging
 
 from rich.logging import RichHandler
 
-from config.settings import settings
+from ezmed.settings import settings
 
 
 def configure_logging() -> None:
