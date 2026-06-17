@@ -1,0 +1,161 @@
+{
+  "dataset": "plaba",
+  "test": "wilcoxon",
+  "n_queries": 75,
+  "alpha": 0.05,
+  "n_comparisons": 12,
+  "bonferroni_alpha": 0.004166666666666667,
+  "primary_metrics": [
+    "recall_at_10",
+    "ndcg_at_10"
+  ],
+  "means": {
+    "baseline": {
+      "recall_at_5": 0.4607407407407408,
+      "recall_at_10": 0.6263703703703704,
+      "mrr": 0.9444444444444444,
+      "ndcg_at_10": 0.7225320687321913
+    },
+    "qr_only": {
+      "recall_at_5": 0.46207407407407414,
+      "recall_at_10": 0.6130370370370369,
+      "mrr": 0.9455555555555556,
+      "ndcg_at_10": 0.711900647145707
+    },
+    "hq_only": {
+      "recall_at_5": 0.46474074074074073,
+      "recall_at_10": 0.6290370370370371,
+      "mrr": 0.9655555555555556,
+      "ndcg_at_10": 0.7287454448565822
+    },
+    "both": {
+      "recall_at_5": 0.4660740740740741,
+      "recall_at_10": 0.6183703703703703,
+      "mrr": 0.9466666666666667,
+      "ndcg_at_10": 0.7172561555203075
+    }
+  },
+  "comparisons": [
+    {
+      "a": "baseline",
+      "b": "qr_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.6263703703703704,
+      "mean_b": 0.6130370370370369,
+      "statistic": 304.0,
+      "p_value": 0.20606259081293987,
+      "significant": false
+    },
+    {
+      "a": "baseline",
+      "b": "qr_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.7225320687321913,
+      "mean_b": 0.711900647145707,
+      "statistic": 443.0,
+      "p_value": 0.19923826556175162,
+      "significant": false
+    },
+    {
+      "a": "baseline",
+      "b": "hq_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.6263703703703704,
+      "mean_b": 0.6290370370370371,
+      "statistic": 332.0,
+      "p_value": 0.9869921892005673,
+      "significant": false
+    },
+    {
+      "a": "baseline",
+      "b": "hq_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.7225320687321913,
+      "mean_b": 0.7287454448565822,
+      "statistic": 441.5,
+      "p_value": 0.7030192634183141,
+      "significant": false
+    },
+    {
+      "a": "baseline",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.6263703703703704,
+      "mean_b": 0.6183703703703703,
+      "statistic": 335.0,
+      "p_value": 0.42927871320431166,
+      "significant": false
+    },
+    {
+      "a": "baseline",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.7225320687321913,
+      "mean_b": 0.7172561555203075,
+      "statistic": 430.5,
+      "p_value": 0.4506987849549251,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "hq_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.6130370370370369,
+      "mean_b": 0.6290370370370371,
+      "statistic": 329.5,
+      "p_value": 0.26590476045878475,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "hq_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.711900647145707,
+      "mean_b": 0.7287454448565822,
+      "statistic": 370.0,
+      "p_value": 0.09510434314904458,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.6130370370370369,
+      "mean_b": 0.6183703703703703,
+      "statistic": 260.5,
+      "p_value": 0.5142532951240919,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.711900647145707,
+      "mean_b": 0.7172561555203075,
+      "statistic": 390.5,
+      "p_value": 0.4447504802627602,
+      "significant": false
+    },
+    {
+      "a": "hq_only",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.6290370370370371,
+      "mean_b": 0.6183703703703703,
+      "statistic": 342.5,
+      "p_value": 0.49723381779931175,
+      "significant": false
+    },
+    {
+      "a": "hq_only",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.7287454448565822,
+      "mean_b": 0.7172561555203075,
+      "statistic": 435.0,
+      "p_value": 0.1160941446009389,
+      "significant": false
+    }
+  ],
+  "embedding_model": "text-embedding-3-large"
+}

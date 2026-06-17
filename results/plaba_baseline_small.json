@@ -2,29 +2,29 @@
   "variant": "baseline",
   "dataset": "plaba",
   "config": {
-    "embedding_model": "text-embedding-3-large",
+    "embedding_model": "text-embedding-3-small",
     "chat_model": "gpt-4.1-mini",
     "chunk_size": 1000,
     "chunk_overlap": 200,
     "hq_per_chunk": 4,
     "query_rewriting": false,
     "top_k": 10,
-    "collection": "plaba_chunks_plain",
+    "collection": "plaba_chunks_plain_small",
     "granularity": "pmid"
   },
   "n_queries": 75,
   "n_chunks": 1648,
   "n_articles": 749,
   "metrics": {
-    "recall_at_5": 0.46074074074074073,
-    "recall_at_10": 0.6263703703703704,
-    "mrr": 0.9444444444444444,
-    "ndcg_at_10": 0.7225320687321913
+    "recall_at_5": 0.4620740740740741,
+    "recall_at_10": 0.6250370370370371,
+    "mrr": 0.9526666666666667,
+    "ndcg_at_10": 0.7214071384058656
   },
   "latency_ms": {
-    "mean": 4.081179533580628,
-    "min": 3.153749988996424,
-    "max": 10.329500000807457
+    "mean": 259.34348286653403,
+    "min": 9.02279200090561,
+    "max": 439.34091700066347
   },
   "per_query": [
     {
@@ -35,37 +35,37 @@
       "recall_at_10": 0.8,
       "mrr": 1.0,
       "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 10.3
+      "latency_ms": 21.4
     },
     {
       "qid": "2",
-      "n_gold": 10,
-      "n_retrieved_pmids": 5,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.5,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.6489315753318465,
-      "latency_ms": 5.8
-    },
-    {
-      "qid": "3",
-      "n_gold": 10,
-      "n_retrieved_pmids": 8,
-      "recall_at_5": 0.4,
-      "recall_at_10": 0.7,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.7753366239771083,
-      "latency_ms": 5.5
-    },
-    {
-      "qid": "4",
       "n_gold": 10,
       "n_retrieved_pmids": 6,
       "recall_at_5": 0.5,
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 5.3
+      "latency_ms": 11.1
+    },
+    {
+      "qid": "3",
+      "n_gold": 10,
+      "n_retrieved_pmids": 7,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7222954974312066,
+      "latency_ms": 9.0
+    },
+    {
+      "qid": "4",
+      "n_gold": 10,
+      "n_retrieved_pmids": 8,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.7,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.8006937664098819,
+      "latency_ms": 426.4
     },
     {
       "qid": "5",
@@ -75,27 +75,27 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 4.4
+      "latency_ms": 271.9
     },
     {
       "qid": "6",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
+      "n_retrieved_pmids": 6,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
+      "recall_at_10": 0.6,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 5.9
+      "ndcg_at_10": 0.7273298443105218,
+      "latency_ms": 235.6
     },
     {
       "qid": "7",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
+      "n_retrieved_pmids": 5,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
+      "recall_at_10": 0.5,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 5.7
+      "ndcg_at_10": 0.6489315753318465,
+      "latency_ms": 258.7
     },
     {
       "qid": "8",
@@ -105,157 +105,157 @@
       "recall_at_10": 0.7,
       "mrr": 1.0,
       "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 4.0
+      "latency_ms": 259.5
     },
     {
       "qid": "9",
       "n_gold": 10,
       "n_retrieved_pmids": 7,
-      "recall_at_5": 0.3,
-      "recall_at_10": 0.4,
-      "mrr": 0.3333333333333333,
-      "ndcg_at_10": 0.3683756341388872,
-      "latency_ms": 4.0
+      "recall_at_5": 0.1,
+      "recall_at_10": 0.2,
+      "mrr": 0.2,
+      "ndcg_at_10": 0.1635413866202963,
+      "latency_ms": 240.6
     },
     {
       "qid": "10",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.5,
+      "n_retrieved_pmids": 5,
+      "recall_at_5": 0.4,
+      "recall_at_10": 0.4,
       "mrr": 1.0,
-      "ndcg_at_10": 0.6489315753318465,
-      "latency_ms": 4.4
+      "ndcg_at_10": 0.5637884576902256,
+      "latency_ms": 139.0
     },
     {
       "qid": "11",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
-      "recall_at_5": 0.2,
-      "recall_at_10": 0.2,
-      "mrr": 0.3333333333333333,
-      "ndcg_at_10": 0.19518900079066107,
-      "latency_ms": 4.2
+      "n_retrieved_pmids": 6,
+      "recall_at_5": 0.4,
+      "recall_at_10": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.5637884576902256,
+      "latency_ms": 308.8
     },
     {
       "qid": "12",
-      "n_gold": 10,
-      "n_retrieved_pmids": 7,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 5.6
-    },
-    {
-      "qid": "13",
       "n_gold": 10,
       "n_retrieved_pmids": 6,
       "recall_at_5": 0.5,
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.5
+      "latency_ms": 386.3
+    },
+    {
+      "qid": "13",
+      "n_gold": 10,
+      "n_retrieved_pmids": 8,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.8,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 241.3
     },
     {
       "qid": "14",
       "n_gold": 10,
       "n_retrieved_pmids": 8,
-      "recall_at_5": 0.3,
+      "recall_at_5": 0.2,
       "recall_at_10": 0.3,
-      "mrr": 0.5,
-      "ndcg_at_10": 0.3436966913921454,
-      "latency_ms": 3.4
+      "mrr": 1.0,
+      "ndcg_at_10": 0.3932783996463063,
+      "latency_ms": 288.7
     },
     {
       "qid": "15",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.4,
-      "recall_at_10": 0.4,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.5637884576902256,
-      "latency_ms": 3.6
+      "recall_at_10": 0.5,
+      "mrr": 0.5,
+      "ndcg_at_10": 0.5022037311331263,
+      "latency_ms": 257.9
     },
     {
       "qid": "16",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
+      "n_retrieved_pmids": 9,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.8
+      "ndcg_at_10": 0.7967610662472991,
+      "latency_ms": 146.2
     },
     {
       "qid": "17",
-      "n_gold": 10,
-      "n_retrieved_pmids": 8,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 3.6
-    },
-    {
-      "qid": "18",
-      "n_gold": 10,
-      "n_retrieved_pmids": 6,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.4
-    },
-    {
-      "qid": "19",
-      "n_gold": 10,
-      "n_retrieved_pmids": 6,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 4.4
-    },
-    {
-      "qid": "20",
       "n_gold": 10,
       "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
       "recall_at_10": 0.7,
       "mrr": 1.0,
       "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 3.3
+      "latency_ms": 258.2
+    },
+    {
+      "qid": "18",
+      "n_gold": 10,
+      "n_retrieved_pmids": 8,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.8,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 155.0
+    },
+    {
+      "qid": "19",
+      "n_gold": 10,
+      "n_retrieved_pmids": 8,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.8,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 264.4
+    },
+    {
+      "qid": "20",
+      "n_gold": 10,
+      "n_retrieved_pmids": 6,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7273298443105218,
+      "latency_ms": 362.0
     },
     {
       "qid": "21",
       "n_gold": 10,
-      "n_retrieved_pmids": 8,
+      "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 3.2
+      "ndcg_at_10": 0.8006937664098819,
+      "latency_ms": 234.3
     },
     {
       "qid": "22",
       "n_gold": 10,
-      "n_retrieved_pmids": 8,
+      "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 3.2
+      "ndcg_at_10": 0.8006937664098819,
+      "latency_ms": 277.9
     },
     {
       "qid": "23",
       "n_gold": 10,
-      "n_retrieved_pmids": 8,
+      "n_retrieved_pmids": 10,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
+      "recall_at_10": 1.0,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 4.2
+      "ndcg_at_10": 1.0,
+      "latency_ms": 299.5
     },
     {
       "qid": "24",
@@ -265,37 +265,37 @@
       "recall_at_10": 0.5,
       "mrr": 1.0,
       "ndcg_at_10": 0.6489315753318465,
-      "latency_ms": 3.8
+      "latency_ms": 314.3
     },
     {
       "qid": "25",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.5,
       "recall_at_10": 0.7,
       "mrr": 1.0,
       "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 4.7
+      "latency_ms": 252.4
     },
     {
       "qid": "26",
-      "n_gold": 10,
-      "n_retrieved_pmids": 7,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 4.6
-    },
-    {
-      "qid": "27",
       "n_gold": 10,
       "n_retrieved_pmids": 6,
       "recall_at_5": 0.5,
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.9
+      "latency_ms": 145.3
+    },
+    {
+      "qid": "27",
+      "n_gold": 10,
+      "n_retrieved_pmids": 5,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.6489315753318465,
+      "latency_ms": 141.1
     },
     {
       "qid": "28",
@@ -305,17 +305,17 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.3
+      "latency_ms": 303.6
     },
     {
       "qid": "29",
       "n_gold": 10,
       "n_retrieved_pmids": 8,
-      "recall_at_5": 0.2,
+      "recall_at_5": 0.3,
       "recall_at_10": 0.5,
       "mrr": 0.5,
-      "ndcg_at_10": 0.45484422125791796,
-      "latency_ms": 3.7
+      "ndcg_at_10": 0.4705561169627617,
+      "latency_ms": 144.5
     },
     {
       "qid": "30",
@@ -323,9 +323,9 @@
       "n_retrieved_pmids": 9,
       "recall_at_5": 0.2,
       "recall_at_10": 0.4,
-      "mrr": 0.3333333333333333,
-      "ndcg_at_10": 0.3476293915547282,
-      "latency_ms": 3.8
+      "mrr": 0.25,
+      "ndcg_at_10": 0.32458397444423615,
+      "latency_ms": 363.6
     },
     {
       "qid": "31",
@@ -335,87 +335,87 @@
       "recall_at_10": 0.9,
       "mrr": 1.0,
       "ndcg_at_10": 0.9363792118010481,
-      "latency_ms": 4.0
+      "latency_ms": 273.9
     },
     {
       "qid": "32",
       "n_gold": 10,
-      "n_retrieved_pmids": 5,
+      "n_retrieved_pmids": 6,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.5,
+      "recall_at_10": 0.6,
       "mrr": 1.0,
-      "ndcg_at_10": 0.6489315753318465,
-      "latency_ms": 3.9
+      "ndcg_at_10": 0.7273298443105218,
+      "latency_ms": 363.9
     },
     {
       "qid": "33",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 4.0
-    },
-    {
-      "qid": "34",
-      "n_gold": 10,
-      "n_retrieved_pmids": 6,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.5,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.6489315753318465,
-      "latency_ms": 4.1
-    },
-    {
-      "qid": "35",
-      "n_gold": 10,
-      "n_retrieved_pmids": 7,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 3.9
-    },
-    {
-      "qid": "36",
-      "n_gold": 10,
-      "n_retrieved_pmids": 7,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 4.3
-    },
-    {
-      "qid": "37",
-      "n_gold": 10,
       "n_retrieved_pmids": 5,
       "recall_at_5": 0.5,
       "recall_at_10": 0.5,
       "mrr": 1.0,
       "ndcg_at_10": 0.6489315753318465,
-      "latency_ms": 3.2
+      "latency_ms": 237.7
+    },
+    {
+      "qid": "34",
+      "n_gold": 10,
+      "n_retrieved_pmids": 7,
+      "recall_at_5": 0.4,
+      "recall_at_10": 0.5,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.6371523797895855,
+      "latency_ms": 241.9
+    },
+    {
+      "qid": "35",
+      "n_gold": 10,
+      "n_retrieved_pmids": 6,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7273298443105218,
+      "latency_ms": 247.4
+    },
+    {
+      "qid": "36",
+      "n_gold": 10,
+      "n_retrieved_pmids": 6,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7273298443105218,
+      "latency_ms": 324.7
+    },
+    {
+      "qid": "37",
+      "n_gold": 10,
+      "n_retrieved_pmids": 6,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7273298443105218,
+      "latency_ms": 294.9
     },
     {
       "qid": "38",
       "n_gold": 10,
       "n_retrieved_pmids": 8,
-      "recall_at_5": 0.4,
-      "recall_at_10": 0.7,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7849818707050382,
-      "latency_ms": 3.5
+      "ndcg_at_10": 0.7273298443105218,
+      "latency_ms": 267.6
     },
     {
       "qid": "39",
       "n_gold": 10,
       "n_retrieved_pmids": 8,
       "recall_at_5": 0.4,
-      "recall_at_10": 0.5,
+      "recall_at_10": 0.6,
       "mrr": 1.0,
-      "ndcg_at_10": 0.6371523797895855,
-      "latency_ms": 4.1
+      "ndcg_at_10": 0.7155506487682609,
+      "latency_ms": 322.1
     },
     {
       "qid": "40",
@@ -425,17 +425,17 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 4.1
+      "latency_ms": 227.7
     },
     {
       "qid": "41",
       "n_gold": 10,
       "n_retrieved_pmids": 8,
-      "recall_at_5": 0.4,
-      "recall_at_10": 0.7,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7849818707050382,
-      "latency_ms": 3.8
+      "ndcg_at_10": 0.6489315753318465,
+      "latency_ms": 354.9
     },
     {
       "qid": "42",
@@ -445,7 +445,7 @@
       "recall_at_10": 0.8,
       "mrr": 1.0,
       "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 3.4
+      "latency_ms": 268.8
     },
     {
       "qid": "43",
@@ -455,7 +455,7 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 5.4
+      "latency_ms": 270.2
     },
     {
       "qid": "44",
@@ -465,7 +465,7 @@
       "recall_at_10": 0.8,
       "mrr": 1.0,
       "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 7.2
+      "latency_ms": 398.8
     },
     {
       "qid": "45",
@@ -473,69 +473,69 @@
       "n_retrieved_pmids": 9,
       "recall_at_5": 0.1,
       "recall_at_10": 0.4,
-      "mrr": 0.3333333333333333,
-      "ndcg_at_10": 0.3312392961638527,
-      "latency_ms": 4.0
+      "mrr": 0.5,
+      "ndcg_at_10": 0.3479118113640809,
+      "latency_ms": 301.3
     },
     {
       "qid": "46",
       "n_gold": 10,
-      "n_retrieved_pmids": 8,
+      "n_retrieved_pmids": 9,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
+      "recall_at_10": 0.9,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 3.8
+      "ndcg_at_10": 0.9363792118010481,
+      "latency_ms": 140.1
     },
     {
       "qid": "47",
-      "n_gold": 10,
-      "n_retrieved_pmids": 9,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 4.3
-    },
-    {
-      "qid": "48",
-      "n_gold": 10,
-      "n_retrieved_pmids": 8,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.7917267193679838,
-      "latency_ms": 3.8
-    },
-    {
-      "qid": "49",
-      "n_gold": 10,
-      "n_retrieved_pmids": 6,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
-      "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.3
-    },
-    {
-      "qid": "50",
       "n_gold": 10,
       "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
       "recall_at_10": 0.7,
       "mrr": 1.0,
       "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 3.3
+      "latency_ms": 236.5
+    },
+    {
+      "qid": "48",
+      "n_gold": 10,
+      "n_retrieved_pmids": 9,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.8,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.8669479898642709,
+      "latency_ms": 333.1
+    },
+    {
+      "qid": "49",
+      "n_gold": 10,
+      "n_retrieved_pmids": 7,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.6489315753318465,
+      "latency_ms": 274.2
+    },
+    {
+      "qid": "50",
+      "n_gold": 10,
+      "n_retrieved_pmids": 5,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.6489315753318465,
+      "latency_ms": 266.3
     },
     {
       "qid": "51",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.4,
-      "recall_at_10": 0.6,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7155506487682609,
-      "latency_ms": 4.5
+      "ndcg_at_10": 0.7312625444731046,
+      "latency_ms": 229.9
     },
     {
       "qid": "52",
@@ -545,7 +545,7 @@
       "recall_at_10": 0.7777777777777778,
       "mrr": 1.0,
       "ndcg_at_10": 0.8550956239938449,
-      "latency_ms": 3.3
+      "latency_ms": 300.8
     },
     {
       "qid": "53",
@@ -555,7 +555,7 @@
       "recall_at_10": 0.4,
       "mrr": 0.5,
       "ndcg_at_10": 0.4288398090337664,
-      "latency_ms": 3.2
+      "latency_ms": 422.5
     },
     {
       "qid": "54",
@@ -565,77 +565,77 @@
       "recall_at_10": 0.7,
       "mrr": 1.0,
       "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 3.4
+      "latency_ms": 286.9
     },
     {
       "qid": "55",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
+      "recall_at_10": 0.8,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.4
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 309.9
     },
     {
       "qid": "56",
       "n_gold": 10,
-      "n_retrieved_pmids": 9,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.9,
+      "recall_at_10": 0.8,
       "mrr": 1.0,
-      "ndcg_at_10": 0.9363792118010481,
-      "latency_ms": 3.4
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 231.4
     },
     {
       "qid": "57",
       "n_gold": 10,
       "n_retrieved_pmids": 8,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
+      "recall_at_10": 0.8,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 3.3
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 226.7
     },
     {
       "qid": "58",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.2,
-      "recall_at_10": 0.3,
+      "recall_at_10": 0.2,
       "mrr": 1.0,
-      "ndcg_at_10": 0.43735247915031,
-      "latency_ms": 3.9
+      "ndcg_at_10": 0.31488013066763093,
+      "latency_ms": 140.1
     },
     {
       "qid": "59",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
-      "recall_at_5": 0.2,
-      "recall_at_10": 0.3,
+      "n_retrieved_pmids": 9,
+      "recall_at_5": 0.3,
+      "recall_at_10": 0.4,
       "mrr": 1.0,
-      "ndcg_at_10": 0.43735247915031,
-      "latency_ms": 4.2
+      "ndcg_at_10": 0.5352543167750637,
+      "latency_ms": 313.5
     },
     {
       "qid": "60",
       "n_gold": 10,
       "n_retrieved_pmids": 7,
-      "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
+      "recall_at_5": 0.4,
+      "recall_at_10": 0.5,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7222954974312066,
-      "latency_ms": 3.6
+      "ndcg_at_10": 0.6421867266689009,
+      "latency_ms": 296.1
     },
     {
       "qid": "61",
       "n_gold": 10,
-      "n_retrieved_pmids": 5,
+      "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.5,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.6489315753318465,
-      "latency_ms": 3.6
+      "ndcg_at_10": 0.8006937664098819,
+      "latency_ms": 279.2
     },
     {
       "qid": "62",
@@ -645,7 +645,7 @@
       "recall_at_10": 0.7,
       "mrr": 1.0,
       "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 3.5
+      "latency_ms": 439.3
     },
     {
       "qid": "63",
@@ -655,27 +655,27 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.7
+      "latency_ms": 261.5
     },
     {
       "qid": "64",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
+      "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
       "recall_at_10": 0.6,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 4.4
+      "ndcg_at_10": 0.7222954974312066,
+      "latency_ms": 162.7
     },
     {
       "qid": "65",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
+      "recall_at_10": 0.8,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.4
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 138.1
     },
     {
       "qid": "66",
@@ -685,17 +685,17 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.4
+      "latency_ms": 275.0
     },
     {
       "qid": "67",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
+      "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.3
+      "ndcg_at_10": 0.8006937664098819,
+      "latency_ms": 282.0
     },
     {
       "qid": "68",
@@ -705,17 +705,17 @@
       "recall_at_10": 0.7,
       "mrr": 1.0,
       "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 4.6
+      "latency_ms": 248.9
     },
     {
       "qid": "69",
       "n_gold": 10,
-      "n_retrieved_pmids": 6,
+      "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.6,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 4.0
+      "ndcg_at_10": 0.8006937664098819,
+      "latency_ms": 140.8
     },
     {
       "qid": "70",
@@ -725,27 +725,27 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.9
+      "latency_ms": 277.6
     },
     {
       "qid": "71",
       "n_gold": 10,
-      "n_retrieved_pmids": 8,
+      "n_retrieved_pmids": 7,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
+      "recall_at_10": 0.7,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 4.1
+      "ndcg_at_10": 0.8006937664098819,
+      "latency_ms": 274.0
     },
     {
       "qid": "72",
       "n_gold": 10,
-      "n_retrieved_pmids": 8,
+      "n_retrieved_pmids": 5,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.8,
+      "recall_at_10": 0.5,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 3.3
+      "ndcg_at_10": 0.6489315753318465,
+      "latency_ms": 276.3
     },
     {
       "qid": "73",
@@ -755,17 +755,17 @@
       "recall_at_10": 0.6,
       "mrr": 1.0,
       "ndcg_at_10": 0.7273298443105218,
-      "latency_ms": 3.2
+      "latency_ms": 405.3
     },
     {
       "qid": "74",
       "n_gold": 10,
-      "n_retrieved_pmids": 7,
+      "n_retrieved_pmids": 8,
       "recall_at_5": 0.5,
-      "recall_at_10": 0.7,
+      "recall_at_10": 0.8,
       "mrr": 1.0,
-      "ndcg_at_10": 0.8006937664098819,
-      "latency_ms": 3.3
+      "ndcg_at_10": 0.8701249883466592,
+      "latency_ms": 282.5
     },
     {
       "qid": "75",
@@ -775,7 +775,7 @@
       "recall_at_10": 0.8,
       "mrr": 1.0,
       "ndcg_at_10": 0.8701249883466592,
-      "latency_ms": 4.3
+      "latency_ms": 284.9
     }
   ]
 }

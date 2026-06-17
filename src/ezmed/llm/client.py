@@ -1,4 +1,4 @@
-"""Azure-OpenAI client with batched embeddings and per-text disk cache."""
+"""Azure-OpenAI client with batched embeddings, chat completions, and disk cache."""
 
 import hashlib
 import logging
@@ -74,8 +74,48 @@ class LLMClient:
 
         return [vec for vec in results if vec is not None]
 
-    def complete(self, system: str, user: str, **kwargs: object) -> LLMResponse:
-        raise NotImplementedError
+    def complete(
+        self, system: str, user: str, temperature: float = 0.0, **kwargs: object
+    ) -> LLMResponse:
+        cached = self._completion_cache_get(system, user, temperature, kwargs)
+        if cached is not None:
+            return cached
+
+        for attempt in range(_MAX_RETRIES):
+            try:
+                response = self._client.chat.completions.create(
+                    model=self.deployment,
+                    messages=[
+                        {"role": "system", "content": system},
+                        {"role": "user", "content": user},
+                    ],
+                    temperature=temperature,
+                    **kwargs,
+                )
+                break
+            except (RateLimitError, APIError) as err:
+                if attempt == _MAX_RETRIES - 1:
+                    raise
+                delay = _BASE_BACKOFF_S * (2**attempt) + random.uniform(0, 0.5)
+                logger.warning(
+                    "completion call failed (%s), retry %d/%d in %.1fs",
+                    type(err).__name__,
+                    attempt + 1,
+                    _MAX_RETRIES - 1,
+                    delay,
+                )
+                time.sleep(delay)
+        else:
+            raise RuntimeError("unreachable")
+
+        usage = response.usage
+        result = LLMResponse(
+            text=response.choices[0].message.content or "",
+            prompt_tokens=usage.prompt_tokens if usage else 0,
+            completion_tokens=usage.completion_tokens if usage else 0,
+        )
+        self._completion_cache_put(system, user, temperature, kwargs, result)
+        return result
 
     def _embed_batch(self, inputs: list[str]) -> list[list[float]]:
         for attempt in range(_MAX_RETRIES):
@@ -118,4 +158,39 @@ class LLMClient:
         tmp = path.with_suffix(".pkl.tmp")
         with tmp.open("wb") as f:
             pickle.dump(vector, f, protocol=pickle.HIGHEST_PROTOCOL)
+        tmp.replace(path)
+
+    def _completion_cache_path(
+        self, system: str, user: str, temperature: float, kwargs: dict[str, object]
+    ) -> Path | None:
+        if self._cache_dir is None:
+            return None
+        params = repr(sorted(kwargs.items()))
+        key = f"chat\0{self.deployment}\0{temperature}\0{params}\0{system}\0{user}"
+        digest = hashlib.sha256(key.encode()).hexdigest()
+        return self._cache_dir / f"{digest}.pkl"
+
+    def _completion_cache_get(
+        self, system: str, user: str, temperature: float, kwargs: dict[str, object]
+    ) -> "LLMResponse | None":
+        path = self._completion_cache_path(system, user, temperature, kwargs)
+        if path is None or not path.exists():
+            return None
+        with path.open("rb") as f:
+            return pickle.load(f)
+
+    def _completion_cache_put(
+        self,
+        system: str,
+        user: str,
+        temperature: float,
+        kwargs: dict[str, object],
+        response: "LLMResponse",
+    ) -> None:
+        path = self._completion_cache_path(system, user, temperature, kwargs)
+        if path is None:
+            return
+        tmp = path.with_suffix(".pkl.tmp")
+        with tmp.open("wb") as f:
+            pickle.dump(response, f, protocol=pickle.HIGHEST_PROTOCOL)
         tmp.replace(path)

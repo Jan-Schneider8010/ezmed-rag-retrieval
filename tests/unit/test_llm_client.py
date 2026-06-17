@@ -31,6 +31,15 @@ def _set_embeddings(mock_instance: MagicMock, vectors: list[list[float]]) -> Non
     )
 
 
+def _set_completion(
+    mock_instance: MagicMock, text: str, prompt_tokens: int = 5, completion_tokens: int = 7
+) -> None:
+    mock_instance.chat.completions.create.return_value = MagicMock(
+        choices=[MagicMock(message=MagicMock(content=text))],
+        usage=MagicMock(prompt_tokens=prompt_tokens, completion_tokens=completion_tokens),
+    )
+
+
 def test_requires_api_key() -> None:
     with pytest.raises(ValueError):
         LLMClient(
@@ -106,3 +115,38 @@ def test_empty_input_returns_empty_list(
     client = _client(tmp_path)
     assert client.embed([]) == []
     mock_azure.embeddings.create.assert_not_called()
+
+
+def test_complete_maps_text_and_tokens(tmp_path: Path, mock_azure: MagicMock) -> None:
+    _set_completion(mock_azure, "rewritten", prompt_tokens=3, completion_tokens=4)
+    resp = _client(tmp_path).complete("sys", "usr")
+    assert resp.text == "rewritten"
+    assert resp.prompt_tokens == 3
+    assert resp.completion_tokens == 4
+    assert resp.total_tokens == 7
+
+
+def test_complete_uses_deployment_as_model(tmp_path: Path, mock_azure: MagicMock) -> None:
+    _set_completion(mock_azure, "x")
+    _client(tmp_path, deployment="chat-dep").complete("sys", "usr")
+    assert mock_azure.chat.completions.create.call_args.kwargs["model"] == "chat-dep"
+
+
+def test_complete_caches_on_second_call(tmp_path: Path, mock_azure: MagicMock) -> None:
+    _set_completion(mock_azure, "answer")
+    client = _client(tmp_path)
+    assert client.complete("sys", "usr").text == "answer"
+    assert client.complete("sys", "usr").text == "answer"
+    assert mock_azure.chat.completions.create.call_count == 1
+
+
+def test_complete_cache_distinguishes_prompts(
+    tmp_path: Path, mock_azure: MagicMock
+) -> None:
+    _set_completion(mock_azure, "a1")
+    client = _client(tmp_path)
+    client.complete("sys", "q1")
+
+    _set_completion(mock_azure, "a2")
+    assert client.complete("sys", "q2").text == "a2"
+    assert mock_azure.chat.completions.create.call_count == 2
