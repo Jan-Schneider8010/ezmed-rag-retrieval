@@ -30,6 +30,7 @@ dependencies = [
     "fastapi>=0.112",
     "uvicorn[standard]>=0.30",
     "pyyaml>=6.0",
+    "matplotlib>=3.11.0",
 ]
 
 [project.optional-dependencies]
