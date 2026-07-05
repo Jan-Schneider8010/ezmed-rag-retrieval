@@ -1,0 +1,161 @@
+{
+  "dataset": "ezmed",
+  "test": "wilcoxon",
+  "n_queries": 149,
+  "alpha": 0.05,
+  "n_comparisons": 12,
+  "bonferroni_alpha": 0.004166666666666667,
+  "primary_metrics": [
+    "recall_at_10",
+    "ndcg_at_10"
+  ],
+  "means": {
+    "baseline": {
+      "recall_at_5": 0.1573219955835237,
+      "recall_at_10": 0.27487231405431556,
+      "mrr": 0.7739639927559391,
+      "ndcg_at_10": 0.575906430313387
+    },
+    "qr_only": {
+      "recall_at_5": 0.17101668343372528,
+      "recall_at_10": 0.3045238627676797,
+      "mrr": 0.8061894108873975,
+      "ndcg_at_10": 0.6267358908873694
+    },
+    "hq_only": {
+      "recall_at_5": 0.20033231899691695,
+      "recall_at_10": 0.3198667422534413,
+      "mrr": 0.8567114093959732,
+      "ndcg_at_10": 0.6672493983238227
+    },
+    "both": {
+      "recall_at_5": 0.20636210391428986,
+      "recall_at_10": 0.3486145802747593,
+      "mrr": 0.8670661553211889,
+      "ndcg_at_10": 0.7087776175178185
+    }
+  },
+  "comparisons": [
+    {
+      "a": "baseline",
+      "b": "qr_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.27487231405431556,
+      "mean_b": 0.3045238627676797,
+      "statistic": 2172.5,
+      "p_value": 0.005912670842024024,
+      "significant": false
+    },
+    {
+      "a": "baseline",
+      "b": "qr_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.575906430313387,
+      "mean_b": 0.6267358908873694,
+      "statistic": 3447.0,
+      "p_value": 0.0006083930963280748,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "hq_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.27487231405431556,
+      "mean_b": 0.3198667422534413,
+      "statistic": 1370.0,
+      "p_value": 2.344663450520842e-06,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "hq_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.575906430313387,
+      "mean_b": 0.6672493983238227,
+      "statistic": 2326.5,
+      "p_value": 9.440063243703717e-08,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.27487231405431556,
+      "mean_b": 0.3486145802747593,
+      "statistic": 1402.5,
+      "p_value": 3.2528118687684744e-09,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.575906430313387,
+      "mean_b": 0.7087776175178185,
+      "statistic": 1930.0,
+      "p_value": 6.794791389474127e-10,
+      "significant": true
+    },
+    {
+      "a": "qr_only",
+      "b": "hq_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.3045238627676797,
+      "mean_b": 0.3198667422534413,
+      "statistic": 2418.5,
+      "p_value": 0.021579836072272433,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "hq_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.6267358908873694,
+      "mean_b": 0.6672493983238227,
+      "statistic": 3725.5,
+      "p_value": 0.008430200806138306,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.3045238627676797,
+      "mean_b": 0.3486145802747593,
+      "statistic": 859.5,
+      "p_value": 1.0237281954411107e-08,
+      "significant": true
+    },
+    {
+      "a": "qr_only",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.6267358908873694,
+      "mean_b": 0.7087776175178185,
+      "statistic": 1490.5,
+      "p_value": 4.6005479809899006e-11,
+      "significant": true
+    },
+    {
+      "a": "hq_only",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.3198667422534413,
+      "mean_b": 0.3486145802747593,
+      "statistic": 1672.0,
+      "p_value": 0.002207270630299851,
+      "significant": true
+    },
+    {
+      "a": "hq_only",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.6672493983238227,
+      "mean_b": 0.7087776175178185,
+      "statistic": 3563.5,
+      "p_value": 0.01743155781502175,
+      "significant": false
+    }
+  ],
+  "n_excluded_empty_gold": 1
+}

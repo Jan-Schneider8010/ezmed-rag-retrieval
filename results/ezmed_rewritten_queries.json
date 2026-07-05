@@ -1,0 +1,602 @@
+{
+  "qa_0000": {
+    "original": "How well are older people in Ireland actually getting their high blood pressure treated and controlled?",
+    "rewritten": "What is the prevalence and effectiveness of antihypertensive treatment and blood pressure control among the elderly population in Ireland?"
+  },
+  "qa_0001": {
+    "original": "What heart-related problems should I watch for during and after cancer treatment?",
+    "rewritten": "What cardiovascular complications or cardiac adverse effects should be monitored for during and following oncological treatment?"
+  },
+  "qa_0002": {
+    "original": "How do doctors make sure the heart ultrasound machines are clean and working well, especially with all the extra germs going around lately?",
+    "rewritten": "What protocols and procedures do clinicians implement to ensure the disinfection and functional integrity of echocardiography equipment, particularly in the context of increased microbial contamination risk?"
+  },
+  "qa_0003": {
+    "original": "If I get a heart ablation for my irregular heartbeat, how likely is it to actually fix the problem and is it safe?",
+    "rewritten": "What is the efficacy of catheter ablation in resolving cardiac arrhythmias, and what are the associated safety and complication rates of this procedure?"
+  },
+  "qa_0004": {
+    "original": "How can doctors tell early if my heart might be having problems after my childhood cancer treatment, even before I feel any symptoms?",
+    "rewritten": "What clinical methods and diagnostic tools can physicians utilize to detect early cardiac dysfunction or potential heart complications in patients following childhood cancer treatment, prior to the onset of clinical symptoms?"
+  },
+  "qa_0005": {
+    "original": "If doctors say I should lower my blood pressure more aggressively, how do they know if the advice really applies to people like me, especially if I\u2019m younger or have other health issues?",
+    "rewritten": "What evidence supports the applicability of intensified antihypertensive treatment recommendations to patients with elevated blood pressure who are younger or have comorbid medical conditions?"
+  },
+  "qa_0006": {
+    "original": "If my heart risk calculator is adjusted to be fair for everyone, does that mean the advice I get about medicine might be less accurate for me?",
+    "rewritten": "If a cardiovascular risk assessment tool is calibrated to provide equitable risk estimates across diverse populations, does this adjustment potentially reduce the accuracy of individualized pharmacological treatment recommendations?"
+  },
+  "qa_0007": {
+    "original": "After breast cancer treatment, how can I tell if my heart is having problems or if I might be at risk for heart issues?",
+    "rewritten": "Following treatment for breast carcinoma, what clinical signs, symptoms, or diagnostic evaluations can be used to identify cardiac dysfunction or assess the risk of cardiovascular complications?"
+  },
+  "qa_0008": {
+    "original": "How can doctors in Ghana use teamwork and better technology to improve heart care like they do in big hospitals abroad?",
+    "rewritten": "What strategies can healthcare professionals in Ghana implement involving multidisciplinary collaboration and advanced medical technologies to enhance cardiovascular care delivery comparable to that provided in large international medical centers?"
+  },
+  "qa_0009": {
+    "original": "Are there new blood tests besides the usual ones that can help doctors better understand or treat heart failure?",
+    "rewritten": "Are there novel or emerging serum biomarkers or blood-based diagnostic assays, in addition to standard laboratory tests, that can enhance clinical assessment or therapeutic management of heart failure?"
+  },
+  "qa_0010": {
+    "original": "If my leg keeps swelling and feels heavy after surgery, what are the best ways to check if it\u2019s lymphedema and how can I manage the swelling?",
+    "rewritten": "In a patient experiencing persistent lower extremity swelling and a sensation of heaviness following surgical intervention, what are the most effective diagnostic methods to evaluate for lymphedema, and what are the recommended management strategies to reduce the swelling?"
+  },
+  "qa_0011": {
+    "original": "If someone has a blocked big vein near the heart, how do doctors still do heart rhythm treatments safely?",
+    "rewritten": "In patients with an obstruction of a major vein proximal to the heart, what are the clinical approaches and procedural techniques employed to safely perform cardiac rhythm management interventions?"
+  },
+  "qa_0012": {
+    "original": "Are the heart doctors from that hospital really well trained and do they keep learning new stuff to take better care of patients?",
+    "rewritten": "What is the level of clinical training and continuing medical education engagement among cardiologists employed at that hospital to ensure the provision of optimal patient care?"
+  },
+  "qa_0013": {
+    "original": "If my heart procedure is done by a doctor who practiced on a simulator, does that mean it's safer and less likely to have complications?",
+    "rewritten": "Does undergoing a cardiac interventional procedure performed by a physician who has trained using a medical simulation-based training system result in increased procedural safety and a reduced incidence of perioperative complications?"
+  },
+  "qa_0014": {
+    "original": "If some people drop out of a heart medicine study, can that mess up the results and make the treatment look better or worse than it really is?",
+    "rewritten": "Does participant attrition in a clinical trial evaluating cardiovascular pharmacotherapy introduce bias that could affect the validity of the efficacy and safety outcomes, potentially leading to an overestimation or underestimation of the treatment effect?"
+  },
+  "qa_0015": {
+    "original": "Can a poem like that really help doctors do a better job taking care of patients?",
+    "rewritten": "Can a poetic narrative or literary composition effectively enhance healthcare professionals' clinical performance and patient care quality?"
+  },
+  "qa_0016": {
+    "original": "If my blood pressure is a little high but I don\u2019t feel sick, could that still be harming my blood vessels without me noticing?",
+    "rewritten": "Can mildly elevated arterial blood pressure, in the absence of subjective symptoms, cause subclinical vascular endothelial damage or other forms of vascular injury without the patient's awareness?"
+  },
+  "qa_0017": {
+    "original": "How have new treatments for heart disease gotten better over the years because of big medical studies?",
+    "rewritten": "How have advancements in therapeutic interventions for cardiovascular disease improved over time as a result of large-scale clinical research studies?"
+  },
+  "qa_0018": {
+    "original": "Can heart scans help find hidden heart problems after I\u2019ve had COVID?",
+    "rewritten": "Can cardiac imaging modalities assist in the detection of subclinical or occult cardiovascular abnormalities following infection with coronavirus disease 2019 (COVID-19)?"
+  },
+  "qa_0019": {
+    "original": "I'm feeling more tired and weak than before with my heart condition\u2014could this be related to something called frailty, and what can be done to help?",
+    "rewritten": "What is the relationship between increased fatigue and generalized weakness in patients with pre-existing cardiac conditions and the clinical syndrome of frailty, and what therapeutic interventions or management strategies are recommended to address these symptoms?"
+  },
+  "qa_0020": {
+    "original": "Can the fat around your heart actually affect your chances of heart problems or help protect your heart?",
+    "rewritten": "Does the adipose tissue surrounding the myocardium influence the risk of cardiovascular pathology or confer cardioprotective effects?"
+  },
+  "qa_0021": {
+    "original": "Can heart scans really catch heart problems early when I\u2019m getting cancer treatment?",
+    "rewritten": "What is the efficacy of cardiac imaging modalities in the early detection of cardiovascular abnormalities in patients undergoing oncologic treatment?"
+  },
+  "qa_0022": {
+    "original": "If I needed a heart procedure during the COVID-19 pandemic, was there a higher chance of complications or death compared to before the pandemic?",
+    "rewritten": "In patients undergoing cardiac procedures during the coronavirus disease 2019 pandemic, was there an increased incidence of perioperative complications or mortality compared to the pre-pandemic period?"
+  },
+  "qa_0023": {
+    "original": "Can these diabetes drugs help protect cancer patients\u2019 hearts from damage caused by their treatments?",
+    "rewritten": "Do antidiabetic pharmacological agents have cardioprotective effects in oncology patients undergoing cancer therapies that induce cardiotoxicity?"
+  },
+  "qa_0024": {
+    "original": "Did the heart patients get less care or more mistakes from nurses during COVID because they were so busy or sick?",
+    "rewritten": "Did patients with cardiac conditions receive reduced quality of care or experience an increased incidence of nursing errors during the coronavirus disease 2019 pandemic due to healthcare staff being overburdened or ill?"
+  },
+  "qa_0025": {
+    "original": "If I have heart problems, can using video or phone visits instead of going to the doctor in person still help me get the care I need?",
+    "rewritten": "In patients with cardiovascular conditions, does utilizing telemedicine modalities such as video consultations or telephone visits, as opposed to in-person clinical appointments, provide equivalent access to necessary medical care?"
+  },
+  "qa_0026": {
+    "original": "If someone has heart failure, what medicines should they be taking to really help them feel better and live longer?",
+    "rewritten": "In patients diagnosed with heart failure, what pharmacological treatments are recommended to improve symptomatic relief and increase survival duration?"
+  },
+  "qa_0027": {
+    "original": "How do medical schools make sure what they teach about heart health builds up step by step so future doctors really understand it well?",
+    "rewritten": "What educational strategies and curricular frameworks do medical schools employ to ensure that instruction regarding cardiovascular health is delivered in a progressive, scaffolded manner that facilitates comprehensive understanding by medical students?"
+  },
+  "qa_0028": {
+    "original": "If I have blood clots from my autoimmune condition but no other health problems, how can I tell if I need medicine to control my blood pressure or cholesterol to protect my heart?",
+    "rewritten": "In a patient with thromboembolic events secondary to an autoimmune disorder but without additional comorbidities, what clinical or laboratory criteria indicate the need for pharmacologic intervention to manage arterial hypertension or hyperlipidemia for cardiovascular risk reduction?"
+  },
+  "qa_0029": {
+    "original": "How can I figure out my chances of having heart problems or a stroke based on my health and lifestyle?",
+    "rewritten": "What methods or tools are available to assess an individual's risk of developing cardiovascular disease or cerebrovascular accident based on their medical history, clinical parameters, and lifestyle factors?"
+  },
+  "qa_0030": {
+    "original": "Is it really safe to go home the same day after a heart artery procedure, or do I need to stay in the hospital overnight?",
+    "rewritten": "What is the safety and clinical appropriateness of same-day discharge compared to overnight hospitalization following a percutaneous coronary intervention or other heart artery procedure?"
+  },
+  "qa_0031": {
+    "original": "If I don\u2019t have diabetes but my blood sugar levels are a bit high, does that mean I\u2019m at a greater risk of serious heart problems or death after a heart-related hospital stay?",
+    "rewritten": "In individuals without a diagnosis of diabetes mellitus but with mildly elevated blood glucose levels, is there an increased risk of major adverse cardiovascular events or all-cause mortality following hospitalization for acute cardiac conditions?"
+  },
+  "qa_0032": {
+    "original": "Hey, is there a new non-invasive treatment for people who keep having dangerous heart rhythm problems that don\u2019t get better with regular treatments?",
+    "rewritten": "Are there any novel non-invasive therapeutic interventions available for patients experiencing recurrent life-threatening cardiac arrhythmias that are refractory to conventional treatment modalities?"
+  },
+  "qa_0033": {
+    "original": "If I have this heart muscle gene problem, does it mean I'm more likely to get irregular heartbeats as I get older?",
+    "rewritten": "In individuals with a genetic mutation affecting cardiac muscle proteins, is there an increased risk of developing cardiac arrhythmias or irregular heart rhythms with advancing age?"
+  },
+  "qa_0034": {
+    "original": "Can using a smartwatch or phone app help me keep track of my heart symptoms and catch problems early before they get worse?",
+    "rewritten": "Does the utilization of wearable technology such as a smartwatch or mobile phone application facilitate the monitoring of cardiac symptoms and enable early detection of potential cardiovascular abnormalities prior to clinical deterioration?"
+  },
+  "qa_0035": {
+    "original": "Do heart doctors in India get enough training in things like heart scans and imaging, or are there gaps in what they learn?",
+    "rewritten": "Do cardiologists in India receive adequate training in cardiovascular imaging modalities, including echocardiography and other heart scan techniques, or are there deficiencies in their educational curriculum?"
+  },
+  "qa_0036": {
+    "original": "How do heart doctors learn to tell parents really bad news about their kids in a way that\u2019s not too scary?",
+    "rewritten": "What communication training and strategies do pediatric cardiologists utilize to effectively convey unfavorable prognostic information to the parents or guardians of pediatric patients in a manner that minimizes psychological distress and fear?"
+  },
+  "qa_0037": {
+    "original": "If I have chest pain due to hardened arteries, how can doctors safely clear the blockage without causing more damage?",
+    "rewritten": "In patients experiencing chest pain attributed to arterial atherosclerosis or arterial hardening, what are the medically established and safe interventional or surgical techniques to remove or reduce arterial occlusions or blockages without inducing additional vascular or myocardial injury?"
+  },
+  "qa_0038": {
+    "original": "How can a simpler computer model still accurately show how heart cells send electrical signals without needing a super-powerful computer?",
+    "rewritten": "What computational modeling approaches allow simplified simulations of cardiac myocyte electrophysiological signal propagation to maintain accuracy without requiring high-performance computing resources?"
+  },
+  "qa_0039": {
+    "original": "How can doctors tell if my pulmonary hypertension is serious or not, and what does that mean for my chances of getting better?",
+    "rewritten": "What clinical assessments and diagnostic criteria are used to determine the severity of pulmonary hypertension, and how does the severity classification impact the prognosis and likelihood of clinical improvement?"
+  },
+  "qa_0040": {
+    "original": "If I\u2019m undergoing cancer treatment and start feeling chest discomfort or shortness of breath, how can imaging tests help find out if my heart is affected?",
+    "rewritten": "In patients undergoing oncologic treatment who develop chest discomfort or dyspnea, how can diagnostic imaging modalities assist in evaluating potential cardiac involvement?"
+  },
+  "qa_0041": {
+    "original": "Can using an ultrasound on the lungs help doctors keep an eye on heart patients while they\u2019re recovering and make sure their treatment is working?",
+    "rewritten": "Does the utilization of thoracic ultrasonography facilitate the monitoring of patients with cardiac conditions during their recovery period and assist in evaluating the efficacy of their therapeutic interventions?"
+  },
+  "qa_0042": {
+    "original": "How often do heart doctors' school projects actually get turned into real medical articles that other doctors can read?",
+    "rewritten": "What is the publication rate of cardiologists' academic or clinical research projects originating from their medical training or educational programs that are subsequently published as peer-reviewed medical journal articles accessible to other healthcare professionals?"
+  },
+  "qa_0043": {
+    "original": "If I have heart problems, can getting a flu shot help me avoid things like heart attacks or feeling worse during flu season?",
+    "rewritten": "In patients with cardiovascular disease, does administration of the influenza vaccine reduce the incidence of acute myocardial infarction or prevent clinical deterioration during influenza season?"
+  },
+  "qa_0044": {
+    "original": "Do you think heart doctor training in India should change to include more hands-on learning and research, not just textbook stuff?",
+    "rewritten": "Should the cardiology specialist training curriculum in India be revised to incorporate increased practical clinical experience and research activities in addition to traditional didactic textbook-based education?"
+  },
+  "qa_0045": {
+    "original": "If I\u2019m Asian and have chest pain, does adding a calcium score test help doctors figure out if I have heart artery blockages better than just using regular risk checks?",
+    "rewritten": "In patients of Asian ethnicity presenting with chest pain, does the addition of coronary artery calcium scoring improve the diagnostic accuracy for detecting coronary artery blockages compared to standard cardiovascular risk assessment methods alone?"
+  },
+  "qa_0046": {
+    "original": "If I come to the hospital with chest pain but no obvious heart attack on my ECG, how quickly can I expect doctors to run tests and start treatment?",
+    "rewritten": "In a patient presenting to the hospital with chest pain but without electrocardiographic evidence of acute myocardial infarction, what is the typical timeframe for initiation of diagnostic testing and commencement of treatment by healthcare providers?"
+  },
+  "qa_0047": {
+    "original": "How does the Venus flytrap send electrical signals to make its trap close, and can these signals start from places other than the little hairs that usually trigger it?",
+    "rewritten": "What are the electrophysiological mechanisms underlying the generation and propagation of action potentials in Dionaea muscipula (Venus flytrap) that lead to trap closure, and is it possible for these bioelectrical signals to be initiated from anatomical sites other than the mechanosensory trigger hairs typically responsible for activation?"
+  },
+  "qa_0048": {
+    "original": "If someone has a heart attack in the hospital, does it matter if the ICU team treats them right there or if they move them to the ICU first?",
+    "rewritten": "In the event of an acute myocardial infarction occurring in a hospitalized patient, does immediate treatment by the intensive care unit team at the initial location versus transferring the patient to the intensive care unit prior to treatment impact clinical outcomes?"
+  },
+  "qa_0049": {
+    "original": "If I needed a heart procedure during the COVID-19 pandemic, was it harder to get treated or did hospitals still manage to help people like me?",
+    "rewritten": "During the coronavirus disease 2019 (COVID-19) pandemic, was access to cardiovascular interventional procedures more limited, or were healthcare facilities able to continue providing treatment to patients requiring such heart procedures?"
+  },
+  "qa_0050": {
+    "original": "If my kid had COVID but feels fine with no heart problems, do they really need to get their heart checked out just to be safe?",
+    "rewritten": "In pediatric patients with a history of coronavirus disease 2019 infection who are currently asymptomatic and exhibit no clinical signs or symptoms suggestive of cardiac pathology, is routine cardiovascular evaluation indicated for precautionary assessment?"
+  },
+  "qa_0051": {
+    "original": "Can having different types of heart damage from a heart attack make dangerous heart rhythms more likely?",
+    "rewritten": "Does the presence of various types of myocardial injury resulting from an acute myocardial infarction increase the risk of developing malignant cardiac arrhythmias?"
+  },
+  "qa_0052": {
+    "original": "I've been feeling more tired and short of breath lately\u2014are there new treatments or ways doctors are finding to catch heart problems earlier before they get worse?",
+    "rewritten": "What are the recent advancements in diagnostic methods and therapeutic interventions for early detection and management of cardiovascular conditions in patients presenting with increased fatigue and dyspnea?"
+  },
+  "qa_0053": {
+    "original": "Could a new type of tiny bacterial protein help fix heart rhythm problems by making heart cells work better?",
+    "rewritten": "Could a novel class of small bacterial-derived proteins facilitate the correction of cardiac arrhythmias by enhancing the functional performance of cardiomyocytes?"
+  },
+  "qa_0054": {
+    "original": "How do doctors make sure the heart test questions they use are good and not confusing?",
+    "rewritten": "What methodologies do clinicians employ to validate and ensure the reliability and clarity of patient-reported outcome measures or questionnaires used in cardiovascular assessment, in order to avoid ambiguity and confusion?"
+  },
+  "qa_0055": {
+    "original": "If I start feeling chest pain or shortness of breath after a heart procedure, how would doctors quickly treat a dangerous fluid buildup around my heart?",
+    "rewritten": "In the event of onset of chest pain or dyspnea following a cardiac procedure, what are the emergent medical interventions employed to rapidly manage a potentially life-threatening pericardial effusion or fluid accumulation around the heart?"
+  },
+  "qa_0056": {
+    "original": "Is it safe for kids with heart problems to go to school or do they need extra precautions because of COVID-19?",
+    "rewritten": "What are the safety considerations and necessary precautions for pediatric patients with cardiovascular conditions attending in-person educational settings during the coronavirus disease 2019 pandemic?"
+  },
+  "qa_0057": {
+    "original": "If I have a rare heart gene mutation, can doctors tailor my treatment to fit exactly what my body needs?",
+    "rewritten": "In patients with a rare genetic mutation affecting cardiac function, is it possible for clinicians to individualize therapeutic interventions to precisely match the patient's specific physiological and molecular needs?"
+  },
+  "qa_0058": {
+    "original": "How can I be sure that the treatments my doctor recommends for my heart condition are really proven to work well?",
+    "rewritten": "What evidence-based methodologies can be utilized to verify that the therapeutic interventions recommended by a physician for a cardiovascular condition have demonstrated efficacy and clinical effectiveness in peer-reviewed medical research?"
+  },
+  "qa_0059": {
+    "original": "If someone\u2019s heart rehab doctor wants their \u201cbad\u201d cholesterol way lower than before, does that mean more people are struggling to hit those new goals even with medicine?",
+    "rewritten": "If a cardiologist specializing in cardiac rehabilitation recommends significantly lowering a patient's low-density lipoprotein cholesterol levels compared to previous targets, does this indicate that a greater proportion of patients are experiencing difficulty achieving these more stringent lipid goals despite pharmacological treatment?"
+  },
+  "qa_0060": {
+    "original": "How can heart clinics make sure I don\u2019t have to wait too long and stay safe from COVID while getting treated?",
+    "rewritten": "What strategies can cardiovascular outpatient clinics implement to minimize patient wait times and ensure patient safety from coronavirus disease 2019 (COVID-19) transmission during clinical evaluation and treatment?"
+  },
+  "qa_0061": {
+    "original": "How can new digital heart monitoring tools help me keep track of irregular heartbeats without needing to visit the doctor\u2019s office all the time?",
+    "rewritten": "What are the clinical applications and efficacy of novel digital cardiac monitoring devices for continuous detection and management of cardiac arrhythmias or irregular heart rhythms in outpatient settings, minimizing the necessity for frequent in-person clinical consultations?"
+  },
+  "qa_0062": {
+    "original": "If I\u2019m picking a heart surgeon, should I trust online patient reviews more than official performance scores?",
+    "rewritten": "When selecting a cardiothoracic surgeon, should greater weight be given to patient-reported outcome measures and online patient satisfaction reviews compared to standardized institutional or governmental surgeon performance metrics and quality scores?"
+  },
+  "qa_0063": {
+    "original": "If I have diabetes, how hard is it to get my cholesterol low enough with the new heart health rules?",
+    "rewritten": "In patients with diabetes mellitus, what is the level of difficulty in achieving target low-density lipoprotein cholesterol levels as recommended by the latest cardiovascular risk management guidelines?"
+  },
+  "qa_0064": {
+    "original": "I've noticed doctors sometimes meet online instead of in person\u2014could this affect how well they decide on my child's heart treatment?",
+    "rewritten": "Does the utilization of virtual multidisciplinary team meetings, as opposed to traditional in-person consultations, impact the clinical decision-making process regarding pediatric cardiac treatment?"
+  },
+  "qa_0065": {
+    "original": "How do doctors make sure they\u2019re really good at using heart scans to figure out what\u2019s wrong and give the best care?",
+    "rewritten": "What methods and criteria do physicians use to ensure proficiency and accuracy in the interpretation of cardiac imaging studies for diagnostic evaluation and optimal patient management?"
+  },
+  "qa_0066": {
+    "original": "Can having heart problems really mess with my memory or thinking, and is there a special clinic that can help with both?",
+    "rewritten": "Can cardiovascular disease or cardiac dysfunction significantly impair cognitive function, including memory and executive function, and are there multidisciplinary clinics or specialized centers that provide integrated care for both cardiac and cognitive impairments?"
+  },
+  "qa_0067": {
+    "original": "If my family and doctors disagree about the best treatment for my heart condition, how can they work together to decide what\u2019s best for me?",
+    "rewritten": "In cases where there is a disagreement between a patient's family members and healthcare providers regarding the optimal therapeutic management for the patient's cardiovascular condition, what collaborative decision-making processes or frameworks can be employed to determine the most appropriate treatment plan?"
+  },
+  "qa_0068": {
+    "original": "How can having a special clinic that focuses on heart and metabolism health help people prevent heart disease better?",
+    "rewritten": "What is the impact of establishing a specialized clinical center dedicated to cardiovascular and metabolic health on the prevention of cardiovascular disease in patients?"
+  },
+  "qa_0069": {
+    "original": "If I have a heart muscle problem, how can doctors tell what kind it is and what treatments might help me?",
+    "rewritten": "In patients presenting with cardiomyopathy or other myocardial disorders, what diagnostic modalities and criteria are utilized to differentiate the specific type of myocardial pathology, and what therapeutic interventions are indicated based on the identified myocardial condition?"
+  },
+  "qa_0070": {
+    "original": "How can frogs tell if another frog nearby is male or female just by smelling the water?",
+    "rewritten": "What are the chemosensory mechanisms by which anuran amphibians can discriminate the biological sex of conspecifics through olfactory detection of waterborne chemical cues?"
+  },
+  "qa_0071": {
+    "original": "Can cancer treatments cause a type of heart failure where the heart still pumps okay but doesn\u2019t fill properly, and how can doctors spot and manage that?",
+    "rewritten": "Can oncologic therapies induce a form of heart failure characterized by preserved left ventricular ejection fraction but impaired ventricular filling (diastolic dysfunction), and what are the clinical methods for detection and management of this condition?"
+  },
+  "qa_0072": {
+    "original": "Why do different countries have different rules for what counts as high blood pressure?",
+    "rewritten": "What are the reasons for the variation in clinical guidelines and diagnostic criteria for elevated arterial blood pressure, commonly referred to as high blood pressure, across different countries?"
+  },
+  "qa_0073": {
+    "original": "Will this new heart signal test help my doctor find the cause of my irregular heartbeat more clearly during treatment?",
+    "rewritten": "Does the implementation of this novel cardiac electrophysiological signal assessment improve the diagnostic accuracy for identifying the etiology of my cardiac arrhythmia during clinical management?"
+  },
+  "qa_0074": {
+    "original": "If two people from different countries have heart failure but get treated with the same guidelines, do they end up having similar chances of survival and hospital visits after a year?",
+    "rewritten": "In patients from different countries diagnosed with heart failure who receive treatment according to the same clinical practice guidelines, do they exhibit comparable one-year survival rates and frequency of hospital readmissions?"
+  },
+  "qa_0075": {
+    "original": "Are there special heart clinics in Italy that can help people with heart failure get better care and follow-up?",
+    "rewritten": "Are there specialized cardiology clinics in Italy that provide enhanced management and follow-up care for patients with heart failure?"
+  },
+  "qa_0076": {
+    "original": "If I\u2019ve had a heart attack and my cholesterol is still high despite taking medicine, what can my doctor do to help lower it better?",
+    "rewritten": "In a patient with a history of myocardial infarction who continues to exhibit elevated serum cholesterol levels despite pharmacological treatment, what additional therapeutic interventions or management strategies can be employed by the clinician to achieve improved lipid control?"
+  },
+  "qa_0077": {
+    "original": "How do they make sure the heart doctor exam is actually good at testing what doctors really need to know?",
+    "rewritten": "What methods are used to validate that the cardiology clinical examination effectively assesses the competencies and knowledge required by practicing physicians?"
+  },
+  "qa_0078": {
+    "original": "Are there any new treatments or tests for heart attacks or heart failure that I should know about?",
+    "rewritten": "Are there any recent advancements in therapeutic interventions or diagnostic modalities for myocardial infarction or cardiac failure that should be considered?"
+  },
+  "qa_0079": {
+    "original": "If I have irregular heartbeats and need a procedure to fix them, how do doctors use different imaging tools to make the treatment safer and more effective?",
+    "rewritten": "In patients presenting with cardiac arrhythmias requiring interventional procedures for rhythm correction, how are various cardiac imaging modalities utilized to enhance procedural safety and efficacy?"
+  },
+  "qa_0080": {
+    "original": "How does this group help young doctors and nurses who want to specialize in heart failure get better at their jobs and connect with others?",
+    "rewritten": "In what ways does this professional organization support early-career physicians and registered nurses seeking specialization in heart failure management to enhance their clinical competencies and facilitate professional networking?"
+  },
+  "qa_0081": {
+    "original": "Did heart patients have a harder time getting care or were more likely to die in hospitals that changed to treat COVID patients?",
+    "rewritten": "Among patients with cardiovascular disease, was there an increased difficulty in accessing medical care or a higher in-hospital mortality rate in hospitals that transitioned to treating patients with coronavirus disease 2019 (COVID-19)?"
+  },
+  "qa_0082": {
+    "original": "If I have symptoms like fever and heart problems, how can doctors be sure it's an infection in my heart and not something else?",
+    "rewritten": "In a patient presenting with symptoms such as pyrexia and cardiac abnormalities, what diagnostic methods and criteria are utilized by clinicians to differentiate infectious involvement of the heart from other potential etiologies?"
+  },
+  "qa_0083": {
+    "original": "Are there any new or better medicines coming out soon for things like high blood pressure or heart problems that doctors are starting to recommend?",
+    "rewritten": "Are there any novel or improved pharmacological treatments forthcoming for conditions such as hypertension or cardiovascular diseases that are currently being recommended by clinicians?"
+  },
+  "qa_0084": {
+    "original": "Can atrial tachycardia be cured with a procedure, or will I need to take medicine forever?",
+    "rewritten": "Is atrial tachycardia amenable to curative treatment via interventional procedures, or is long-term pharmacological therapy typically required?"
+  },
+  "qa_0085": {
+    "original": "Why do my eyes sometimes feel slower to adjust or react when I have blurry or distorted vision?",
+    "rewritten": "What are the underlying physiological mechanisms that cause delayed pupillary or visual adaptation responses in patients experiencing episodes of blurred or distorted vision?"
+  },
+  "qa_0086": {
+    "original": "If someone has an autoimmune disease, how can heart scans help figure out if they're at risk for heart problems caused by inflammation?",
+    "rewritten": "In patients with autoimmune diseases, how can cardiovascular imaging modalities be utilized to assess the risk of cardiovascular complications secondary to systemic inflammation?"
+  },
+  "qa_0087": {
+    "original": "Can using remote heart monitoring really help me avoid hospital visits and catch problems earlier?",
+    "rewritten": "Does the utilization of remote cardiac monitoring systems effectively reduce the frequency of hospital admissions and facilitate earlier detection of cardiac abnormalities or complications?"
+  },
+  "qa_0088": {
+    "original": "If I have rheumatoid arthritis and start feeling chest pain or shortness of breath, could seeing a heart specialist help prevent serious problems or hospital visits?",
+    "rewritten": "In patients with rheumatoid arthritis who develop symptoms of chest pain or dyspnea, can consultation with a cardiology specialist contribute to the prevention of serious cardiovascular complications or reduce the need for hospital admissions?"
+  },
+  "qa_0089": {
+    "original": "Hey, how can doctors quickly check if older heart patients are getting frail during their regular visits?",
+    "rewritten": "What clinical assessment tools or screening methods can healthcare providers utilize during routine outpatient visits to rapidly evaluate the presence or progression of frailty in elderly patients with cardiovascular conditions?"
+  },
+  "qa_0090": {
+    "original": "Are there any new treatments for heart valve problems that work better than what we have now?",
+    "rewritten": "Are there any novel therapeutic interventions for cardiac valvular disorders that demonstrate superior efficacy compared to current standard treatments?"
+  },
+  "qa_0091": {
+    "original": "How can doctors practicing on 3D-printed heart models help them treat children with heart problems more safely and confidently?",
+    "rewritten": "In what ways does the utilization of three-dimensional printed cardiac models for preoperative simulation by clinicians enhance the safety and confidence of medical management in pediatric patients with congenital or acquired cardiac abnormalities?"
+  },
+  "qa_0092": {
+    "original": "How can simple reminders or tips help doctors improve heart treatment without making them feel like they\u2019re being told what to do?",
+    "rewritten": "What is the impact of simple cognitive aids or clinical decision support tools on healthcare providers' adherence to cardiovascular treatment guidelines, while minimizing perceptions of prescriptiveness or professional autonomy infringement?"
+  },
+  "qa_0093": {
+    "original": "If I have type 2 diabetes and heart problems, what medicines should I take to keep my heart safe?",
+    "rewritten": "In patients with type 2 diabetes mellitus and cardiovascular disease, what pharmacological treatments are recommended to reduce cardiovascular risk and protect cardiac function?"
+  },
+  "qa_0094": {
+    "original": "How can I be sure that doctors who treat my child's heart condition have had the right kind of training to handle complex cases?",
+    "rewritten": "What criteria and credentials can verify that physicians managing my pediatric patient's cardiac condition possess specialized training and expertise in the management of complex cardiovascular cases?"
+  },
+  "qa_0095": {
+    "original": "Does using ultrasound to guide the needle when they access the vein during heart procedures make it safer and less painful?",
+    "rewritten": "Does the use of ultrasound guidance for vascular access during cardiac procedures improve procedural safety and reduce patient-reported pain compared to landmark-based techniques?"
+  },
+  "qa_0096": {
+    "original": "How can doctors work together to help me recover better after a stroke and keep my heart healthy too?",
+    "rewritten": "What multidisciplinary clinical strategies can healthcare professionals employ to optimize post-stroke recovery and concurrently maintain cardiovascular health?"
+  },
+  "qa_0097": {
+    "original": "If I have irregular heartbeats that keep getting worse, how likely is it that doctors have enough experience and training to safely fix the problem with a procedure?",
+    "rewritten": "In patients experiencing progressively worsening irregular cardiac rhythms (arrhythmias), what is the likelihood that clinicians possess sufficient expertise and training to safely perform interventional procedures aimed at correcting the arrhythmias?"
+  },
+  "qa_0098": {
+    "original": "If someone with heart failure ends up in a regular hospital ward instead of a heart specialist unit, does that change how likely they are to have to go back to the hospital soon after?",
+    "rewritten": "In patients with heart failure admitted to a general medical ward compared to a specialized cardiology unit, how does the setting of care impact the rate of hospital readmission within a short-term follow-up period?"
+  },
+  "qa_0099": {
+    "original": "Why do people with one working heart ventricle have so many problems, and is there any new hope for better treatments?",
+    "rewritten": "What are the pathophysiological mechanisms underlying the high morbidity in patients with a single functional cardiac ventricle, and are there any recent advances or emerging therapies that offer improved clinical outcomes for this condition?"
+  },
+  "qa_0100": {
+    "original": "If I describe my chest pain and other heart symptoms to a computer program like GPT-4, can it give me advice that's as reliable as what a real heart doctor would say?",
+    "rewritten": "If a patient reports chest pain and other cardiovascular symptoms to an artificial intelligence-based clinical decision support system such as GPT-4, can the system provide medical advice or diagnostic guidance with reliability comparable to that of a board-certified cardiologist?"
+  },
+  "qa_0101": {
+    "original": "If someone with COVID-19 has a heart attack, is the way doctors do CPR different to keep everyone safe?",
+    "rewritten": "In patients diagnosed with coronavirus disease 2019 (COVID-19) who experience acute myocardial infarction, are there modifications to the cardiopulmonary resuscitation (CPR) protocols implemented by healthcare providers to ensure the safety of medical personnel?"
+  },
+  "qa_0102": {
+    "original": "Is the amount of X-ray radiation kids get during heart procedures safe, and can it be lowered?",
+    "rewritten": "What are the safety parameters of ionizing radiation exposure from fluoroscopic X-ray imaging during pediatric cardiac interventional procedures, and what strategies exist to minimize radiation dose in this population?"
+  },
+  "qa_0103": {
+    "original": "If I have a heart condition I've had since birth, how can I be sure my doctor has the right training to take care of me as an adult?",
+    "rewritten": "How can I verify that my healthcare provider possesses the appropriate specialized training and qualifications to manage congenital heart disease in adult patients?"
+  },
+  "qa_0104": {
+    "original": "How do things like how excited or personally important a word feels change the way our brain understands its emotional meaning?",
+    "rewritten": "How do factors such as the level of arousal or the subjective personal significance of a lexical item influence the neural processing and interpretation of its affective or emotional valence?"
+  },
+  "qa_0105": {
+    "original": "If I have a heart attack without the usual big warning signs, how likely is it that one of my heart arteries is completely blocked?",
+    "rewritten": "In patients experiencing an acute myocardial infarction without the typical prominent prodromal symptoms, what is the probability that one of the coronary arteries is fully occluded?"
+  },
+  "qa_0106": {
+    "original": "Why might people in poorer countries have a harder time getting the heart treatments that doctors recommend?",
+    "rewritten": "What are the factors contributing to reduced access to physician-recommended cardiovascular treatments among populations in low-income countries?"
+  },
+  "qa_0107": {
+    "original": "Did the number of heart procedures like stents or pacemaker implants go down because of COVID-19?",
+    "rewritten": "Did the incidence of cardiovascular interventional procedures, such as coronary artery stent placements or cardiac pacemaker implantations, decrease during the coronavirus disease 2019 (COVID-19) pandemic?"
+  },
+  "qa_0108": {
+    "original": "What kind of person makes the best boss for kids' heart doctors?",
+    "rewritten": "What are the optimal leadership qualities and professional characteristics of an effective supervisor or manager for pediatric cardiologists?"
+  },
+  "qa_0109": {
+    "original": "If I have heart failure, how likely am I to be able to talk to my doctor through video or phone instead of going in person?",
+    "rewritten": "In patients diagnosed with heart failure, what is the prevalence or likelihood of utilizing telemedicine modalities, such as video consultations or telephone calls, for clinical interactions with healthcare providers instead of in-person visits?"
+  },
+  "qa_0110": {
+    "original": "Have more women been getting top research roles in heart studies over the years, and does having women lead these projects help bring in more diverse teams?",
+    "rewritten": "Has there been an increase in the representation of female investigators in principal investigator roles within cardiovascular research over time, and does female leadership in these research projects correlate with greater diversity in research team composition?"
+  },
+  "qa_0111": {
+    "original": "Why are there still so few women helping to make the big heart health rules doctors follow?",
+    "rewritten": "What factors contribute to the continued underrepresentation of women in the development of major cardiovascular health guidelines adhered to by physicians?"
+  },
+  "qa_0112": {
+    "original": "I've been feeling occasional dizziness and numbness in my limbs\u2014could these be signs of blood vessel problems that might lead to heart or brain issues?",
+    "rewritten": "I have been experiencing intermittent episodes of dizziness and paresthesia in my extremities; could these symptoms be indicative of underlying vascular pathology that may predispose to cardiovascular or cerebrovascular complications?"
+  },
+  "qa_0113": {
+    "original": "Can a tiny brain implant both deliver medicine right where it\u2019s needed and also record brain signals at the same time?",
+    "rewritten": "Is it feasible for a miniature intracerebral implant to simultaneously administer pharmacological agents locally at targeted neural sites and record electrophysiological brain signals concurrently?"
+  },
+  "qa_0114": {
+    "original": "Is it safe for me to just buy low-dose aspirin at the drugstore to prevent heart problems, or should I only take it if a doctor says so?",
+    "rewritten": "Is it safe for an individual to self-administer low-dose acetylsalicylic acid (aspirin) obtained over-the-counter for the primary prevention of cardiovascular events, or should its use be initiated exclusively under medical supervision?"
+  },
+  "qa_0115": {
+    "original": "If I apply for a heart specialist training program through online interviews, will I end up training far away from where I live or have worked before?",
+    "rewritten": "If an individual applies for a cardiology specialist training program through virtual interviews, is there a likelihood that the training location will be geographically distant from their current residence or previous places of employment?"
+  },
+  "qa_0116": {
+    "original": "How can having a digital copy of my heart help doctors figure out the best treatment just for me?",
+    "rewritten": "In what ways can the utilization of a digital anatomical and functional model of the heart assist clinicians in determining the optimal personalized therapeutic strategy for an individual patient?"
+  },
+  "qa_0117": {
+    "original": "Why do people with heart failure often forget or stop taking their medicines, and what can help them keep up with their treatment?",
+    "rewritten": "What are the factors contributing to medication non-adherence or discontinuation among patients with heart failure, and what interventions or strategies can improve adherence to prescribed pharmacological treatment regimens in this population?"
+  },
+  "qa_0118": {
+    "original": "I've noticed fewer women doctors in heart care\u2014could social media help change that and make it easier for women to enter this field?",
+    "rewritten": "What is the impact of social media platforms on increasing the representation and facilitating the entry of female physicians into the field of cardiovascular medicine?"
+  },
+  "qa_0119": {
+    "original": "Can pigs be used to study why some people get irregular heartbeats after heart surgery, instead of using dogs?",
+    "rewritten": "Is the porcine model appropriate for investigating the pathophysiological mechanisms underlying postoperative cardiac arrhythmias in humans, as an alternative to the canine model?"
+  },
+  "qa_0120": {
+    "original": "Can my heart doctor really check if I\u2019m okay just by talking on the phone, or do I still need to go in person sometimes?",
+    "rewritten": "Is it clinically valid for a cardiologist to assess a patient's cardiovascular health status solely through telephonic consultation, or are in-person clinical evaluations still necessary at certain intervals?"
+  },
+  "qa_0121": {
+    "original": "If I work with heart procedures that use X-rays and want to have a baby, how can I protect myself and my future child from any risks?",
+    "rewritten": "What protective measures and safety protocols should be implemented for healthcare professionals performing cardiac interventional procedures involving ionizing radiation to minimize occupational exposure risks to themselves and their future offspring during conception and pregnancy?"
+  },
+  "qa_0122": {
+    "original": "After having preeclampsia, do people from different races get the same chances to see a heart doctor or regular doctor afterward, or do things like money and education make a difference?",
+    "rewritten": "Following a diagnosis of preeclampsia, do individuals of different racial or ethnic backgrounds have equivalent access to cardiology or primary care services, or do socioeconomic factors such as income and educational attainment influence disparities in healthcare utilization?"
+  },
+  "qa_0123": {
+    "original": "If my kid has a heart check-up over video, how do doctors decide if they really need to do an ultrasound test?",
+    "rewritten": "In pediatric cardiology telemedicine consultations, what clinical criteria and decision-making processes do physicians use to determine the necessity of performing a transthoracic echocardiogram or other cardiac ultrasound imaging?"
+  },
+  "qa_0124": {
+    "original": "If I know more about the doctor I'm seeing, will I feel more comfortable and ask more questions during my visit?",
+    "rewritten": "Does increased patient knowledge regarding the healthcare provider they are consulting correlate with enhanced patient comfort and increased frequency of patient-initiated inquiries during the clinical encounter?"
+  },
+  "qa_0125": {
+    "original": "If someone wants to become a heart rhythm specialist, how long do they usually need to train, and what kind of hands-on experience should they expect?",
+    "rewritten": "What is the typical duration of postgraduate medical training required to become a cardiac electrophysiologist, and what types of clinical and procedural hands-on experience are generally involved in this subspecialty?"
+  },
+  "qa_0126": {
+    "original": "How do doctors learn to use heart MRI machines well enough to make sure the pictures are accurate and helpful?",
+    "rewritten": "What educational methods and training protocols are employed to ensure physicians achieve proficiency in cardiovascular magnetic resonance imaging acquisition and interpretation, thereby guaranteeing image accuracy and clinical utility?"
+  },
+  "qa_0127": {
+    "original": "Could feeling stressed or isolated make it harder for me to keep my blood pressure under control if I have cancer?",
+    "rewritten": "Can psychological stress or social isolation contribute to difficulties in maintaining blood pressure control in patients diagnosed with cancer?"
+  },
+  "qa_0128": {
+    "original": "Can I trust AI chatbots like ChatGPT to give me accurate answers about heart procedures based on the latest medical guidelines?",
+    "rewritten": "To what extent can artificial intelligence conversational agents, such as Chat Generative Pre-trained Transformer, be relied upon to provide accurate and up-to-date information regarding cardiovascular interventional procedures in accordance with the most current clinical practice guidelines?"
+  },
+  "qa_0129": {
+    "original": "How do doctors keep the X-ray radiation as low as possible when fixing heart rhythm problems?",
+    "rewritten": "What techniques and protocols do clinicians employ to minimize ionizing radiation exposure from fluoroscopic X-ray imaging during the management of cardiac arrhythmias?"
+  },
+  "qa_0130": {
+    "original": "How can I be sure that a pediatric heart doctor has the right experience to handle my child's specific heart condition?",
+    "rewritten": "What criteria can be used to verify that a pediatric cardiologist possesses adequate clinical experience and expertise to manage my child's specific congenital or acquired cardiac condition?"
+  },
+  "qa_0131": {
+    "original": "Did fewer people going to the doctor for heart problems during COVID end up causing more heart-related deaths, especially at home?",
+    "rewritten": "Did a reduction in healthcare utilization for cardiovascular complaints during the coronavirus disease 2019 pandemic result in an increase in cardiovascular mortality, particularly deaths occurring outside of hospital settings?"
+  },
+  "qa_0132": {
+    "original": "Can med students really get better at reading heart tests if they learn by doing and talking instead of just listening to a lecture?",
+    "rewritten": "Does experiential learning combined with interactive discussion improve medical students' proficiency in interpreting cardiac diagnostic tests compared to traditional didactic lecture-based instruction?"
+  },
+  "qa_0133": {
+    "original": "If I\u2019m undergoing cancer treatment and start feeling unusual tiredness, shortness of breath, or irregular heartbeats, could these be signs that my heart is being affected by the therapy?",
+    "rewritten": "In patients undergoing oncologic treatment, do the onset of symptoms such as unusual fatigue, dyspnea, or cardiac arrhythmias indicate potential cardiotoxic effects of the therapy?"
+  },
+  "qa_0134": {
+    "original": "What are the best new ways doctors recommend managing long-term heart artery problems to keep things under control?",
+    "rewritten": "What are the most effective contemporary clinical management strategies recommended by healthcare professionals for the long-term control of chronic coronary artery conditions?"
+  },
+  "qa_0135": {
+    "original": "If a heart doctor in training only sees a certain number of heart scans, can they still miss learning about some rare but serious heart problems?",
+    "rewritten": "In cardiology fellowship training, does limited exposure to a finite number of cardiac imaging studies potentially result in failure to recognize or learn about rare but clinically significant cardiovascular pathologies?"
+  },
+  "qa_0136": {
+    "original": "If I come to the emergency room with chest pain, will the new guidelines mean I have to stay longer for tests before doctors can tell if it\u2019s serious?",
+    "rewritten": "In patients presenting to the emergency department with chest pain, do the updated clinical guidelines require an extended duration of observation and diagnostic testing before clinicians can determine the severity or clinical significance of the symptoms?"
+  },
+  "qa_0137": {
+    "original": "How do changes in tiny structures inside heart cells affect how adrenaline works and the heart\u2019s electrical signals?",
+    "rewritten": "How do alterations in subcellular microstructures within cardiomyocytes influence adrenergic signaling pathways and cardiac electrophysiological activity?"
+  },
+  "qa_0138": {
+    "original": "Can these deep-sea shrimp actually see the light they make inside their bodies?",
+    "rewritten": "Are deep-sea shrimp capable of perceiving the bioluminescent light produced endogenously within their bodies?"
+  },
+  "qa_0139": {
+    "original": "If my doctor listens to my heart with an old-fashioned stethoscope, how can they tell if something is wrong without modern machines?",
+    "rewritten": "How can a clinician detect abnormalities in cardiac function or pathology through auscultation using a traditional acoustic stethoscope without the assistance of advanced diagnostic imaging or electronic monitoring devices?"
+  },
+  "qa_0140": {
+    "original": "If I get a heart scan that shows no calcium buildup, does that mean I\u2019m pretty safe from heart attacks for a long time?",
+    "rewritten": "If a coronary artery calcium scan demonstrates no detectable coronary artery calcification, does this finding indicate a sustained low risk of myocardial infarction over an extended period?"
+  },
+  "qa_0141": {
+    "original": "Are transgender people more likely to have heart problems because of the hormones they take or because doctors don\u2019t treat them well?",
+    "rewritten": "Is there an increased incidence of cardiovascular complications among transgender individuals attributable to hormone replacement therapy, or is it related to disparities in healthcare provision and quality of medical treatment they receive?"
+  },
+  "qa_0142": {
+    "original": "If my child has a heart problem and feels tired or short of breath, how can heart MRI scans help doctors understand what\u2019s wrong and decide the best treatment?",
+    "rewritten": "In pediatric patients presenting with cardiac pathology accompanied by symptoms of fatigue and dyspnea, how can cardiovascular magnetic resonance imaging contribute to the assessment of cardiac function and structure, and assist clinicians in determining the optimal therapeutic management?"
+  },
+  "qa_0143": {
+    "original": "How can doctors make sure they're doing the best job when putting in and managing a heart pacemaker?",
+    "rewritten": "What are the best practices and clinical guidelines for physicians to optimize the implantation and management of cardiac pacemakers?"
+  },
+  "qa_0144": {
+    "original": "Can these heart scans really help doctors find problems early and decide the best treatment for heart diseases?",
+    "rewritten": "What is the diagnostic accuracy and clinical utility of cardiac imaging modalities in the early detection of cardiovascular abnormalities and in guiding optimal therapeutic decision-making for heart diseases?"
+  },
+  "qa_0145": {
+    "original": "If I have symptoms like shortness of breath and swelling in my legs, what new treatments should I ask my doctor about to better manage my heart condition?",
+    "rewritten": "In patients presenting with dyspnea and peripheral edema, what novel therapeutic interventions should be discussed with a healthcare provider to optimize management of underlying cardiac pathology?"
+  },
+  "qa_0146": {
+    "original": "Are there big differences in how heart and lung surgery teams are set up at top hospitals, and does that affect how many surgeons or women work there?",
+    "rewritten": "Are there significant differences in the organizational structure and composition of cardiothoracic surgery teams specializing in cardiac surgery versus pulmonary surgery at leading tertiary care hospitals, and do these differences influence the number of surgeons employed or the gender distribution, specifically the representation of female surgeons, within these teams?"
+  },
+  "qa_0147": {
+    "original": "If I join a heart study that looks at biomarkers, what are the chances it will actually help me or others like me?",
+    "rewritten": "What is the likelihood that participation in a cardiovascular research study investigating biomarkers will provide clinical benefit to the participant or to other individuals with similar cardiovascular profiles?"
+  },
+  "qa_0148": {
+    "original": "\u00bfPor qu\u00e9 me siento tan cansado y sin energ\u00eda si ya estoy recibiendo tratamiento para mi problema del coraz\u00f3n?",
+    "rewritten": "\u00bfCu\u00e1les son las causas de la fatiga persistente y la astenia en pacientes que est\u00e1n recibiendo tratamiento m\u00e9dico para una enfermedad card\u00edaca?"
+  },
+  "qa_0149": {
+    "original": "Can AI really help doctors catch heart problems earlier in people going through cancer treatment?",
+    "rewritten": "Can artificial intelligence assist clinicians in the earlier detection of cardiovascular complications in patients undergoing oncological treatment?"
+  }
+}
