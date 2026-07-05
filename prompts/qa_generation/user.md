@@ -6,4 +6,4 @@ Paper abstract:
 
 Style: {style_instruction}
 
-Generate {k} distinct lay questions about this paper in the specified style. One question per line, no numbering.
+Write ONE lay question about this paper's topic, in the specified style. Do not mention the paper, the abstract, or that this is an exercise. Output only the question, nothing else.

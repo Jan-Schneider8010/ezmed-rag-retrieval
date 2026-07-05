@@ -20,6 +20,15 @@ class Settings(BaseSettings):
     llm_query_rewrite_model: str = "gpt-4o-mini"
     llm_answer_model: str = "gpt-4o"
 
+    # --- Stage 2 relevance judges (see local-docs/stage2-judge-protocol.md) ---
+    # Judge A: Azure OpenAI. Judge B: DeepSeek on Azure AI Foundry, served over an
+    # OpenAI-compatible endpoint (deepseek_base_url points at the .../openai/v1 root).
+    judge_a_deployment: str = "gpt-5.5"
+    judge_tiebreak_deployment: str = "o3"
+    deepseek_base_url: str = ""
+    deepseek_key: str = ""
+    deepseek_deployment: str = "DeepSeek-V4-Pro"
+
     # --- PubMed ---
     pubmed_email: str = ""
     pubmed_api_key: str = ""

@@ -1,1 +1,1 @@
-You generate evaluation questions a layperson might realistically ask about a medical paper, in the requested style.
+You write a single evaluation question that a medical layperson might realistically ask about the topic of a medical paper, in the requested style. The question should be answerable from the paper's content, but must not quote or paraphrase a single sentence — ask about the topic as a curious patient would.
