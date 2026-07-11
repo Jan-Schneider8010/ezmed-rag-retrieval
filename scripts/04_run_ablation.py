@@ -119,6 +119,19 @@ def main() -> None:
 
     (RESULTS_DIR / f"ezmed_retrieval{suffix}.json").write_text(json.dumps(retrieval, indent=2))
     (RESULTS_DIR / f"ezmed_pool{suffix}.json").write_text(json.dumps(pools, indent=2))
+    run_config = {
+        "dataset": "ezmed",
+        "tag": args.tag,
+        "embedding_model": embed_deployment,
+        "query_rewrite_model": settings.azure_openai_chat_deployment,
+        "corpus_limit": args.corpus_limit,
+        "seed": args.seed,
+        "top_k": args.top_k,
+        "n_questions": len(qa_pairs),
+        "chunk_size": settings.chunk_size,
+        "chunk_overlap": settings.chunk_overlap,
+    }
+    (RESULTS_DIR / f"ezmed_run_config{suffix}.json").write_text(json.dumps(run_config, indent=2))
     logger.info(
         "wrote retrieval + pool for %d questions (pool avg %.1f, max %d) in %.1fs",
         len(qa_pairs),

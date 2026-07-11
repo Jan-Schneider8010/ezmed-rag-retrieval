@@ -1,0 +1,173 @@
+{
+  "dataset": "ezmed",
+  "test": "wilcoxon",
+  "n_queries": 149,
+  "alpha": 0.05,
+  "n_comparisons": 12,
+  "bonferroni_alpha": 0.004166666666666667,
+  "primary_metrics": [
+    "recall_at_10",
+    "ndcg_at_10"
+  ],
+  "means": {
+    "baseline": {
+      "recall_at_5": 0.1817704215938135,
+      "recall_at_10": 0.2968192658257608,
+      "mrr": 0.8409955257270694,
+      "ndcg_at_10": 0.613887041106142
+    },
+    "qr_only": {
+      "recall_at_5": 0.19144768338017637,
+      "recall_at_10": 0.31674760079309344,
+      "mrr": 0.8363614573346118,
+      "ndcg_at_10": 0.6521510334460424
+    },
+    "hq_only": {
+      "recall_at_5": 0.1977598328964905,
+      "recall_at_10": 0.3301235946926847,
+      "mrr": 0.8674496644295302,
+      "ndcg_at_10": 0.6772513274806593
+    },
+    "both": {
+      "recall_at_5": 0.20472300124302295,
+      "recall_at_10": 0.34166272515532636,
+      "mrr": 0.8698146372643016,
+      "ndcg_at_10": 0.6937504319849207
+    }
+  },
+  "comparisons": [
+    {
+      "a": "baseline",
+      "b": "qr_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.2968192658257608,
+      "mean_b": 0.31674760079309344,
+      "statistic": 1791.0,
+      "p_value": 0.005284182561543496,
+      "significant": false
+    },
+    {
+      "a": "baseline",
+      "b": "qr_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.613887041106142,
+      "mean_b": 0.6521510334460424,
+      "statistic": 3157.5,
+      "p_value": 0.00033069007396942755,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "hq_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.2968192658257608,
+      "mean_b": 0.3301235946926847,
+      "statistic": 1393.5,
+      "p_value": 2.0379449967324977e-06,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "hq_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.613887041106142,
+      "mean_b": 0.6772513274806593,
+      "statistic": 2456.0,
+      "p_value": 1.5456112791345985e-07,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.2968192658257608,
+      "mean_b": 0.34166272515532636,
+      "statistic": 1413.0,
+      "p_value": 6.121591889118144e-07,
+      "significant": true
+    },
+    {
+      "a": "baseline",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.613887041106142,
+      "mean_b": 0.6937504319849207,
+      "statistic": 2523.5,
+      "p_value": 3.253556912620072e-07,
+      "significant": true
+    },
+    {
+      "a": "qr_only",
+      "b": "hq_only",
+      "metric": "recall_at_10",
+      "mean_a": 0.31674760079309344,
+      "mean_b": 0.3301235946926847,
+      "statistic": 2632.0,
+      "p_value": 0.2691417352523646,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "hq_only",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.6521510334460424,
+      "mean_b": 0.6772513274806593,
+      "statistic": 3930.5,
+      "p_value": 0.08722426276313835,
+      "significant": false
+    },
+    {
+      "a": "qr_only",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.31674760079309344,
+      "mean_b": 0.34166272515532636,
+      "statistic": 1254.0,
+      "p_value": 0.00013980738597852089,
+      "significant": true
+    },
+    {
+      "a": "qr_only",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.6521510334460424,
+      "mean_b": 0.6937504319849207,
+      "statistic": 2717.0,
+      "p_value": 6.080176415353635e-05,
+      "significant": true
+    },
+    {
+      "a": "hq_only",
+      "b": "both",
+      "metric": "recall_at_10",
+      "mean_a": 0.3301235946926847,
+      "mean_b": 0.34166272515532636,
+      "statistic": 2139.0,
+      "p_value": 0.139194074385307,
+      "significant": false
+    },
+    {
+      "a": "hq_only",
+      "b": "both",
+      "metric": "ndcg_at_10",
+      "mean_a": 0.6772513274806593,
+      "mean_b": 0.6937504319849207,
+      "statistic": 4109.0,
+      "p_value": 0.29078345701010266,
+      "significant": false
+    }
+  ],
+  "n_excluded_empty_gold": 1,
+  "run_config": {
+    "dataset": "ezmed",
+    "tag": "large",
+    "embedding_model": "text-embedding-3-large",
+    "query_rewrite_model": "gpt-4.1-mini",
+    "corpus_limit": 500,
+    "seed": 42,
+    "top_k": 10,
+    "n_questions": 150,
+    "chunk_size": 1000,
+    "chunk_overlap": 200
+  }
+}

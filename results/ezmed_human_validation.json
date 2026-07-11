@@ -1,0 +1,6 @@
+{
+  "n_validated": 80,
+  "human_vs_judge_kappa": 0.6275,
+  "accuracy": 0.8375,
+  "n_human_relevant": 57
+}

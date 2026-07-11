@@ -46,8 +46,12 @@ def main() -> None:
     started = time.time()
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
+    suffix = f"_{args.tag}" if args.tag else ""
+    pool_path = args.pool or Path(f"results/ezmed_pool{suffix}.json")
+    output_path = args.output or Path(f"data/qa_dataset/qa_gold{suffix}.jsonl")
+
     qa_pairs = load_jsonl(args.qa)
-    pools: dict[str, list[str]] = json.loads(args.pool.read_text())
+    pools: dict[str, list[str]] = json.loads(pool_path.read_text())
     chunk_text, _ = load_chunk_index(RAW_DIR, limit=args.corpus_limit, seed=args.seed)
     _assert_pool_chunks_known(pools, chunk_text)
 
@@ -80,9 +84,10 @@ def main() -> None:
         qa_pairs, pools, chunk_text, judge_a, judge_b, tiebreak, workers=args.workers
     )
 
-    export_jsonl(updated, args.output)
-    (RESULTS_DIR / "ezmed_gold_report.json").write_text(json.dumps(report.to_dict(), indent=2))
-    with (RESULTS_DIR / "ezmed_judge_labels.jsonl").open("w", encoding="utf-8") as f:
+    export_jsonl(updated, output_path)
+    report_path = RESULTS_DIR / f"ezmed_gold_report{suffix}.json"
+    report_path.write_text(json.dumps(report.to_dict(), indent=2))
+    with (RESULTS_DIR / f"ezmed_judge_labels{suffix}.jsonl").open("w", encoding="utf-8") as f:
         for label in report.labels:
             f.write(json.dumps(label.to_dict()) + "\n")
 
@@ -123,8 +128,9 @@ def _assert_pool_chunks_known(pools: dict[str, list[str]], chunk_text: dict[str,
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--qa", type=Path, default=QA_PATH, help=f"QA JSONL ({QA_PATH}).")
-    parser.add_argument("--pool", type=Path, default=POOL_PATH, help=f"Pool JSON ({POOL_PATH}).")
-    parser.add_argument("--output", type=Path, default=GOLD_PATH, help=f"Gold JSONL ({GOLD_PATH}).")
+    parser.add_argument("--pool", type=Path, default=None, help=f"Pool JSON ({POOL_PATH}).")
+    parser.add_argument("--output", type=Path, default=None, help=f"Gold JSONL ({GOLD_PATH}).")
+    parser.add_argument("--tag", default="", help="Suffix for default in/out paths, e.g. 'large'.")
     parser.add_argument(
         "--corpus-limit", type=int, default=100, help="Match step 2 --limit. Default 100."
     )
