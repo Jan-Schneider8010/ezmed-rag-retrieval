@@ -1,0 +1,65 @@
+{
+  "n_validated": 78,
+  "n_expert_relevant": 24,
+  "overall": {
+    "n": 78,
+    "kappa": 0.3698,
+    "accuracy": 0.6538
+  },
+  "on_disagreements_vs_tiebreak": {
+    "n": 39,
+    "kappa": 0.1503,
+    "accuracy": 0.4872
+  },
+  "on_agreements_vs_consensus": {
+    "n": 39,
+    "kappa": 0.6375,
+    "accuracy": 0.8205
+  },
+  "by_stratum": {
+    "disagree": {
+      "n": 39,
+      "kappa": 0.1503,
+      "accuracy": 0.4872
+    },
+    "agree_rel": {
+      "n": 19,
+      "kappa": 0.0,
+      "accuracy": 0.6316
+    },
+    "agree_not": {
+      "n": 20,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    }
+  },
+  "error_direction": {
+    "both_relevant": 23,
+    "both_not_relevant": 28,
+    "gold_relevant_expert_not": 26,
+    "gold_not_expert_relevant": 1,
+    "expert_relevant_rate": 0.3077,
+    "gold_relevant_rate": 0.6282
+  },
+  "population_weighted": {
+    "accuracy": 0.7642,
+    "population_size": 8098,
+    "strata": {
+      "agree_not": {
+        "share": 0.4856,
+        "n_sampled": 20,
+        "accuracy": 1.0
+      },
+      "agree_rel": {
+        "share": 0.1944,
+        "n_sampled": 19,
+        "accuracy": 0.6316
+      },
+      "disagree": {
+        "share": 0.3201,
+        "n_sampled": 39,
+        "accuracy": 0.4872
+      }
+    }
+  }
+}
